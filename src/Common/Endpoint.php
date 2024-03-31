@@ -96,7 +96,7 @@ class Endpoint implements \Laravie\Codex\Contracts\Endpoint
      * @param  string|array<string, string|null>  $key
      * @return $this
      */
-    public function addQuery($key, string $value = null)
+    public function addQuery($key, ?string $value = null)
     {
         if (\is_array($key)) {
             foreach ($key as $name => $content) {

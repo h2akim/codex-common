@@ -22,7 +22,6 @@ class HttpException extends RuntimeException implements HttpClientException
      * Construct a new HTTP exception.
      *
      * @param  \Psr\Http\Message\ResponseInterface|\Laravie\Codex\Contracts\Response  $response
-     * @param  string  $message
      */
     public function __construct(
         $response,

@@ -93,7 +93,7 @@ trait HttpClient
      * Prepare request headers.
      *
      * @param  array<string, mixed>  $headers
-     * @return  array<string, mixed>
+     * @return array<string, mixed>
      */
     abstract protected function prepareRequestHeaders(array $headers = []): array;
 }

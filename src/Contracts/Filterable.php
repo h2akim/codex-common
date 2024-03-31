@@ -11,15 +11,11 @@ interface Filterable
 
     /**
      * Set filterable.
-     *
-     * @param  \Laravie\Codex\Contracts\Sanitizer|null  $filterable
      */
     public function setFilterable(?Sanitizer $filterable): void;
 
     /**
      * Get filterable.
-     *
-     * @return \Laravie\Codex\Contracts\Sanitizer|null
      */
     public function getFilterable(): ?Sanitizer;
 

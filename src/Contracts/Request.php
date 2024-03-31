@@ -20,7 +20,6 @@ interface Request
     /**
      * Set Codex Client.
      *
-     * @param  \Laravie\Codex\Contracts\Client  $client
      * @return $this
      */
     public function setClient(Client $client);
